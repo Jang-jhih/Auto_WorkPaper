@@ -29,6 +29,6 @@
 @python %~dp0main.py
 
 @rem 開啟Excel，並傳入參數
-@"C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE" "WorkBook_技術部_%today%.xlsm" /batOpen
-
+rem @"C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE" "WorkBook_技術部_%today%.xlsm" /batOpen
+@"C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE" "WorkBook.xlsm" /batOpen
 @rem pause
